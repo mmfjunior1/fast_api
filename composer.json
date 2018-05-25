@@ -16,7 +16,7 @@
     "require" : {
         "composer/composer": "^1.4",
         "composer-plugin-api": "^1.1",
-	"fast-api-micro" : "@dev"
+	"fast-api-core" : "@dev"
     },
 	"autoload": {
         "psr-4": {
