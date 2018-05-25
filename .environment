@@ -1,0 +1,24 @@
+[APACHE_CONF]
+VHOST_FILE=/etc/apache2/conf.d/parede.conf
+HTTPD_CONF=/etc/apache2/apache2.conf
+TEST_COMMAND="sudo /usr/sbin/apachectl -t"
+STRING_ERROR_SEARCH=Syntax error
+APACHE_USER=www-data
+APACHE_RESTART_COMMAND="sudo /usr/sbin/apachectl restart"
+[CUSTOM_WAF_CONF]
+WAF_CUSTOM_DIR=/aker/webdefender/
+LOG_STORAGE_DIR=/aker/webdefender/logs/
+API_PATH_STORAGE=/aker/webdefender/api/storage/
+API_PATH_TPL=/aker/webdefender/api/tpl/
+API_PATH_RULES=/usr/share/modsecurity-crs/base_rules/
+API_SECURE_FILE=/aker/webdefender/api/secure/secret
+[DATABASE]
+DB_DRIVER=sqlite
+DB_FILE=waf_api.sqlite3
+[API]
+AUTH_PWD=123456
+[CORE]
+REPONSE_LOG=true
+REQUEST_LOG=true
+LOG_DIR=/aker/webdefender/api/storage/
+ENV=PROD
