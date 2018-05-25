@@ -15,6 +15,8 @@ $ composer install
                 Require all granted
         </Directory>
 </VirtualHost>
+
+
 # Manual
 Leia o manual presente neste repositório e entenda como funciona.
 # Contribuição
