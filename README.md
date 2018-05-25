@@ -5,11 +5,11 @@ sistema de roteamento, entre outras.
 # Instalação
 $ composer install
 # VHost - Apache
+
 <VirtualHost *:8084>
         DocumentRoot /var/www/html/fast_api/public
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
-
         <Directory "/var/www/html/fast_api/public">
                 AllowOverride all
                 Require all granted
