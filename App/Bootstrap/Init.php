@@ -45,7 +45,7 @@ class Init
         }
     }
     /**
-     * Start de app
+     * Start the app
      * 
      * @return void
      */
