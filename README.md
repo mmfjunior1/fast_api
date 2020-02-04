@@ -1,5 +1,5 @@
 # fast_api
-Pequena ferramenta, mas bastante funcional, para construção de APIs RestFul.
+Pequena ferramenta, mas bastante funcional, para construção de APIs.
 Conta com https://github.com/mmfjunior1/fast-api-core.git, que possui algumas ferramentas como QueryBuilder, 
 sistema de roteamento, entre outras.
 # Instalação
